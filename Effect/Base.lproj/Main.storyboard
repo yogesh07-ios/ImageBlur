@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="bin-ST-r0l">
-                                <rect key="frame" x="37.5" y="0.0" width="300" height="667"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12" translatesAutoresizingMaskIntoConstraints="NO" id="bin-ST-r0l">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.78039215689999997" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
@@ -44,6 +44,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="11" width="300" height="168"/>
+        <image name="12" width="718" height="982"/>
     </resources>
 </document>

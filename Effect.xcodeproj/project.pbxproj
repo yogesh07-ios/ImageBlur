@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4523868E237BC1C800A9EDCC /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4523868D237BC1C800A9EDCC /* Extension+UIImageView.swift */; };
+		45238690237BC1D900A9EDCC /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4523868F237BC1D900A9EDCC /* Extension+UIImage.swift */; };
 		45568DF223744A910082E35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45568DF123744A910082E35E /* AppDelegate.swift */; };
 		45568DF423744A910082E35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45568DF323744A910082E35E /* ViewController.swift */; };
 		45568DF723744A910082E35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45568DF523744A910082E35E /* Main.storyboard */; };
 		45568DF923744A920082E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45568DF823744A920082E35E /* Assets.xcassets */; };
 		45568DFC23744A920082E35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45568DFA23744A920082E35E /* LaunchScreen.storyboard */; };
-		4575687C237563D4008E3C41 /* UIImage+Gaussian.m in Sources */ = {isa = PBXBuildFile; fileRef = 45756875237563D4008E3C41 /* UIImage+Gaussian.m */; };
-		4597DA4A237A76AE0095E752 /* UIImage+Contrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4597DA48237A76AD0095E752 /* UIImage+Contrast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4523868D237BC1C800A9EDCC /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		4523868F237BC1D900A9EDCC /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
 		45568DEE23744A910082E35E /* Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Effect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45568DF123744A910082E35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45568DF323744A910082E35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,11 +26,6 @@
 		45568DF823744A920082E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45568DFB23744A920082E35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45568DFD23744A920082E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4575686C237563D3008E3C41 /* Effect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Effect-Bridging-Header.h"; sourceTree = "<group>"; };
-		45756874237563D4008E3C41 /* UIImage+Gaussian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Gaussian.h"; sourceTree = "<group>"; };
-		45756875237563D4008E3C41 /* UIImage+Gaussian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Gaussian.m"; sourceTree = "<group>"; };
-		4597DA48237A76AD0095E752 /* UIImage+Contrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Contrast.m"; sourceTree = "<group>"; };
-		4597DA49237A76AE0095E752 /* UIImage+Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Contrast.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +42,7 @@
 		45568DE523744A910082E35E = {
 			isa = PBXGroup;
 			children = (
-				4575686B2375636F008E3C41 /* blur */,
+				4575686B2375636F008E3C41 /* Extension */,
 				45568DF023744A910082E35E /* Effect */,
 				45568DEF23744A910082E35E /* Products */,
 			);
@@ -72,16 +69,13 @@
 			path = Effect;
 			sourceTree = "<group>";
 		};
-		4575686B2375636F008E3C41 /* blur */ = {
+		4575686B2375636F008E3C41 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4597DA49237A76AE0095E752 /* UIImage+Contrast.h */,
-				4597DA48237A76AD0095E752 /* UIImage+Contrast.m */,
-				45756874237563D4008E3C41 /* UIImage+Gaussian.h */,
-				45756875237563D4008E3C41 /* UIImage+Gaussian.m */,
-				4575686C237563D3008E3C41 /* Effect-Bridging-Header.h */,
+				4523868D237BC1C800A9EDCC /* Extension+UIImageView.swift */,
+				4523868F237BC1D900A9EDCC /* Extension+UIImage.swift */,
 			);
-			path = blur;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4575687C237563D4008E3C41 /* UIImage+Gaussian.m in Sources */,
 				45568DF423744A910082E35E /* ViewController.swift in Sources */,
+				4523868E237BC1C800A9EDCC /* Extension+UIImageView.swift in Sources */,
 				45568DF223744A910082E35E /* AppDelegate.swift in Sources */,
-				4597DA4A237A76AE0095E752 /* UIImage+Contrast.m in Sources */,
+				45238690237BC1D900A9EDCC /* Extension+UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
